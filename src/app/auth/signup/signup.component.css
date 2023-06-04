@@ -1,0 +1,79 @@
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Container style */
+.ui.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form style */
+.ui.form {
+  margin-top: 20px;
+}
+
+/* Input style */
+.app-input {
+  margin-bottom: 10px;
+}
+
+.app-input label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.app-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Error message style */
+.ui.red.basic.label {
+  color: #db2828;
+  margin-top: 10px;
+}
+
+.ui.red.basic.label p {
+  margin: 5px 0;
+}
+
+/* Submit button style */
+.ui.submit.button.primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2185d0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ui.submit.button.primary:hover {
+  background-color: #1678c2;
+}

@@ -1,0 +1,74 @@
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Form container style */
+.ui.form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input style */
+.app-input {
+  margin-bottom: 15px;
+}
+
+.app-input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.app-input input[type="text"],
+.app-input input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button style */
+.ui.submit.button.primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ui.submit.button.primary:hover {
+  background-color: #0056b3;
+}
+
+.ui.submit.button.primary:focus {
+  outline: none;
+}
+
+.ui.submit.button.primary:active {
+  background-color: #004080;
+}
+
+.basic.label {
+  margin-bottom: 0.5rem;
+}
